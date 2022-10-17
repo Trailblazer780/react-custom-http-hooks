@@ -15,7 +15,7 @@ const NewTask = (props) => {
   const enterTaskHandler = async (taskText) => {
     sendTaskRequest(
       {
-        url: "https://react-http-3e366-default-rtdb.firebaseio.com/tasks.json",
+        url: "ADD FIREBASE REALTIME DATABASE URL HERE",
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: { text: taskText },
