@@ -22,7 +22,7 @@ function App() {
     };
 
     fetchTasks({
-      url: "https://react-http-3e366-default-rtdb.firebaseio.com/tasks.json",
+      url: "ADD FIREBASE REALTIME DATABASE URL HERE",
     }, transformTasks);
   }, [fetchTasks]);
 
